@@ -4,7 +4,7 @@ const routes = require('./routes') // "./" é o caminho relativo dos arquivos
 
 const app = express()
 
-mongoose.connect('mongodb+srv://fabio_papais:36562145@cluster0-njnwe.mongodb.net/DevRadar?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://username:password@cluster0-njnwe.mongodb.net/DevRadar?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
