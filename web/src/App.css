@@ -1,0 +1,28 @@
+#app {
+    max-width: 120px;
+    margin: 0 auto;
+    padding: 60px 30px;
+    
+    display: flex; 
+    flex-direction: row; /* Todos os itens vão ficar um ao lado do outro*/
+    align-items: flex-start; /* ALINHADOS AO TOPO */
+    margin: 0px 200px;
+}
+
+#app main {
+    margin-left: 30px;
+}
+
+@media (max-width: 1000px) {
+    #app {
+        flex-direction: column;
+        margin-left: 200px;
+    }
+    #app main {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    #app aside form {
+        width: 540px;
+    }
+}
